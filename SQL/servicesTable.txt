@@ -1,0 +1,109 @@
+//Add Services table
+
+/*Name varchar(250)
+Category varchar(250)
+ID
+Fee*/
+
+
+INSERT into services(Name, Category, Fee) values("Ambulance Service1", "Ambulance", 500);
+INSERT into services(Name, Category, Fee) values("Ambulance Service2", "Ambulance", 600);
+INSERT into services(Name, Category, Fee) values("Ambulance Service3", "Ambulance", 700);
+INSERT into services(Name, Category, Fee) values("Ambulance Service4", "Ambulance", 800);
+
+
+INSERT into services(Name, Category, Fee) values("Blood Drawing", "Blood Bank", 600);
+INSERT into services(Name, Category, Fee) values("Blood Screening+Drawing+Grouping", "Blood Bank", 2100);
+INSERT into services(Name, Category, Fee) values("Blood Screening+Grouping", "Blood Bank", 1500);
+
+INSERT into services(Name, Category, Fee) values("Colonoscopy Polypectomy EMR/ESD Large", "Colonoscopy", 44000);
+INSERT into services(Name, Category, Fee) values("Colonoscopy Polypectomy EMR/ESD small", "Colonoscopy", 36000);
+INSERT into services(Name, Category, Fee) values("Colonoscopy Polypectomy Large", "Colonoscopy", 26000);
+INSERT into services(Name, Category, Fee) values("Colonoscopy with Polypectomy", "Colonoscopy", 11000);
+INSERT into services(Name, Category, Fee) values("Colposcopy", "Colonoscopy", 4000);
+INSERT into services(Name, Category, Fee) values("Foreign body removal", "Colonoscopy", 12000);
+INSERT into services(Name, Category, Fee) values("Full Video Colonoscopy", "Colonoscopy", 8600);
+INSERT into services(Name, Category, Fee) values("Short Video Colonoscopy", "Colonoscopy", 5400);
+
+INSERT into services(Name, Category, Fee) values("Anesthesia", "Diagnostic", 1500);
+INSERT into services(Name, Category, Fee) values("Consultant Fee", "Diagnostic", 4000);
+INSERT into services(Name, Category, Fee) values("Collection Charge for COVID-19", "Diagnostic", 700);
+INSERT into services(Name, Category, Fee) values("Physical Examination (Certificate)", "Diagnostic", 100);
+INSERT into services(Name, Category, Fee) values("T.T Vax ( Tetanus )", "Diagnostic", 500);
+INSERT into services(Name, Category, Fee) values("X-Ray Contrast- 350 - 100 ml with procedure, appliances & extra film (10001)", "Diagnostic", 2500);
+INSERT into services(Name, Category, Fee) values("X-Ray Contrast- 350 - 50 ml with procedure, appliances & extra film (10000)", "Diagnostic", 1300);
+INSERT into services(Name, Category, Fee) values("Anesthesia for Foreign Body", "Diagnostic", 2000);
+INSERT into services(Name, Category, Fee) values("Anesthesia for MRI of Brain", "Diagnostic", 1500);
+INSERT into services(Name, Category, Fee) values("CT / MRI Extra Film", "Diagnostic", 500);
+
+INSERT into services(Name, Category, Fee) values("ECG", "ECG", 400);
+INSERT into services(Name, Category, Fee) values("ECG (up to 5 years)", "ECG", 400);
+INSERT into services(Name, Category, Fee) values("Holter ECG 120hrs", "ECG", 7000);
+INSERT into services(Name, Category, Fee) values("Holter ECG 48hrs", "ECG", 4000);
+
+INSERT into services(Name, Category, Fee) values("2D Echo", "Echo", 1500);
+INSERT into services(Name, Category, Fee) values("Echo Colour Doppler", "Echo", 3000);
+INSERT into services(Name, Category, Fee) values("Echo Colour Doppler (Child)", "Echo", 3600);
+INSERT into services(Name, Category, Fee) values("ETT", "Echo", 4000); 
+INSERT into services(Name, Category, Fee) values("Transthoracic 2D-Echo Study", "Echo", 2600);
+
+
+INSERT into services(Name, Category, Fee) values("Balloon Dilatation of Duodenum", "Endoscopy", 24000);
+INSERT into services(Name, Category, Fee) values("Bronchoscopy", "Endoscopy", 6500);
+INSERT into services(Name, Category, Fee) values("Bronchoscopy Medicine", "Endoscopy", 500);
+INSERT into services(Name, Category, Fee) values("Endoscopic Glue Injection of Fundal Varix", "Endoscopy", 14000);
+INSERT into services(Name, Category, Fee) values("Endoscopic Removal of Foreign body Fish Bone/Meat Bone", "Endoscopy", 16000);
+INSERT into services(Name, Category, Fee) values("Endoscopy Polypectomy Large", "Endoscopy", 25000);
+INSERT into services(Name, Category, Fee) values("Endoscopy Removal of Foregone Body Coin /Pin /Key", "Endoscopy", 18000);
+INSERT into services(Name, Category, Fee) values("ERCP & Papilotomy", "Endoscopy", 18000);
+INSERT into services(Name, Category, Fee) values("ERCP & Stone Extraction", "Endoscopy", 28000);
+INSERT into services(Name, Category, Fee) values("ERCP + CHANGE OF STEN", "Endoscopy", 18000);
+INSERT into services(Name, Category, Fee) values("Sedation Test", "Endoscopy", 600);
+
+INSERT into services(Name, Category, Fee) values("FibroScan", "FibroScan", 4500);
+INSERT into services(Name, Category, Fee) values("Fibroscan with CAP", "FibroScan", 4000);
+
+INSERT into services(Name, Category, Fee) values("Collection", "Molecular Diagnostics", 100);
+INSERT into services(Name, Category, Fee) values("HBV-DNA", "Molecular Diagnostics", 8000);
+
+INSERT into services(Name, Category, Fee) values("Vision Test", "Opthalmology", 600);
+
+INSERT into services(Name, Category, Fee) values("1 hour postprandial Plasma glucose", "Pathology", 200);
+INSERT into services(Name, Category, Fee) values("24 hrs Urinary Microalbumin", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("24 hrs. Urinary Chloride", "Pathology", 400);
+INSERT into services(Name, Category, Fee) values("24 hrs. Urinary Potassium", "Pathology", 400);
+INSERT into services(Name, Category, Fee) values("Acid Phosphatase", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("ACTH", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Aldehyde Test", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Aldolase", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Amphetamine", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Anti HAV - IgM", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Anti HCV", "Pathology", 1500);
+INSERT into services(Name, Category, Fee) values("Blood for ADA", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Blood for C/S (FAN Method)", "Pathology", 2500);
+INSERT into services(Name, Category, Fee) values("Blood for Microfileria", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Blood Group & RH Factor", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Bone Marrow Examination", "Pathology", 4000);
+INSERT into services(Name, Category, Fee) values("COVID-19 Rapid Antigen Test", "Pathology", 700);
+INSERT into services(Name, Category, Fee) values("Cortisol", "Pathology", 1200);
+INSERT into services(Name, Category, Fee) values("Free Testosterone", "Pathology", 1800);
+INSERT into services(Name, Category, Fee) values("Gall Bladder Fluid Analysis", "Pathology", 1200);
+
+INSERT into services(Name, Category, Fee) values("Bone Age (Pelvis + Clavicle & Wrist) Adult", "Radiology", 1500);
+INSERT into services(Name, Category, Fee) values("CARDIAC MAGNETIC RESONANCE IMAGING (CMR)", "Radiology", 25000);
+INSERT into services(Name, Category, Fee) values("Cardiac MRI with CMR Perfusion", "Radiology", 30000);
+INSERT into services(Name, Category, Fee) values("CBCT Scan of Face", "Radiology", 6500);
+INSERT into services(Name, Category, Fee) values("CT Scan", "Radiology", 7000);
+INSERT into services(Name, Category, Fee) values("Digital X-Ray", "Radiology", 600);
+INSERT into services(Name, Category, Fee) values("MRA & MRV of Brain", "Radiology", 14000);
+INSERT into services(Name, Category, Fee) values("MRCP", "Radiology", 9000);
+INSERT into services(Name, Category, Fee) values("MRI of Brain", "Radiology", 8000);
+INSERT into services(Name, Category, Fee) values("MRI Enterography", "Radiology", 2000);
+
+INSERT into services(Name, Category, Fee) values("Adrenal(F722)", "Ultrasound", 1800);
+INSERT into services(Name, Category, Fee) values("Adrenal(F722)", "Ultrasound", 2300);
+INSERT into services(Name, Category, Fee) values("Doppler USG", "Ultrasound", 3500);
+INSERT into services(Name, Category, Fee) values("Doppler(F746)", "Ultrasound", 4000);
+INSERT into services(Name, Category, Fee) values("KUB & Pelvis", "Ultrasound", 3000);
+INSERT into services(Name, Category, Fee) values("Ultrasonogram", "Ultrasound", 1200);
+INSERT into services(Name, Category, Fee) values("Portable Ultrasonogram", "Ultrasound", 3000);

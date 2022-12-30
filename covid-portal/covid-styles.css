@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e0ffff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/images/covid-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+    
+}
+
+/*------------------Navigation Bar----------------------------*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fixed-nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+
+.fixed-nav-bar ul li a{
+    color: #353935;
+    text-decoration: none;
+    font-size:18px;
+    position: relative;
+}
+
+.fixed-nav-bar ul li a:hover{
+    color: darkmagenta;
+}
+
+.header-text{
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top:10px;
+}
+
+.header-text h2{
+    font-size: 30px;
+    margin-top:5px;
+    color:#353935;
+}
+
+.header-text h1 span{
+    font-size: 40px;
+    color:#353935
+}
+.fixed-nav-bar { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 70px; 
+    background-color: lightskyblue; }
+/*----------About Section--------------------------*/
+
+#about{
+    padding: 80px 0;
+    color: #353935;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis:35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    color:#353935;
+    margin-bottom: 30px;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+/*-----------------Tab Titles------------------------*/
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color:blueviolet;
+    cursor: pointer;
+    position: relative
+}
+
+.tab-links::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background: blueviolet;
+    position: absolute;
+    left: 0;
+    bottom:-8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin:10px 0;
+}
+
+.tab-contents ul li span{
+    color:crimson;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+/*--------------Symptoms Section-----------------------*/
+
+.symptoms-col-2 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#symptoms{
+    padding: 80px 0;
+    color: #353935;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.symptoms-col-2{
+    flex-basis:35%;
+}
+
+.symptoms-col-2 img{
+    width: 100%;
+    height: 550px;
+    border-radius: 15px;
+}
+
+.symptoms-col-1{
+    flex-basis: 65%;
+}
+
+
+/*----------Vaccination---------------------------*/
+
+#vaccination{
+    padding: 30px 0;
+}
+
+.vaccination-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 60px;
+    margin: 5px;
+}
+
+.vaccination-list div{
+    background:lightblue;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition: background 0.5s,transform 0.5s;
+}
+
+.vaccination-list div h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #353935;
+    margin-bottom: 10px;
+}
+.vaccination-list div:hover{
+    background:lightseagreen;
+    transform: translateY(-10px);
+}
+
+/*-----------------Get Vaccination Section----------------------*/
+
+#get-vaccination{
+    padding: 80px 0;
+    color: #353935;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.getvaccination-col-1{
+    flex-basis:35%;
+}
+
+.getvaccination-col-1 img{
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.getvaccination-col-2{
+    flex-basis: 65%;
+    padding-top: 0px;
+    padding-left: 50px;
+}
+
+
+/*-------------Fight Covid-19----------------*/
+
+#fight{
+    padding: 80px 0;
+    color: #353935;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fight-col-2{
+    flex-basis:35%;
+}
+
+.fight-col-2 img{
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.fight-col-1{
+    flex-basis: 65%;
+}
+
+
+/*-----------------Help Section----------------------*/
+
+#help{
+    padding: 30px 0;
+    margin-top: 80px;
+}
+
+.help-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin: 5px;
+}
+
+.help-list div{
+    background:lightskyblue;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: background 0.5s,transform 0.5s;
+}
+
+.help-list div h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #353935;
+    margin-bottom: 10px;
+}
+.help-list div:hover{
+    background:lightseagreen;
+    transform: translateY(-10px);
+}

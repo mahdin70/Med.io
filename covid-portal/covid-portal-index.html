@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Portal</title>
+
+    <link rel="stylesheet" href="./covid-styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" href="../assets/images/med-io-img.png">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="fixed-nav-bar">
+                <img src="../assets/images/med-io-img.png" style="height: 80px; width:80px" class="logo">
+                <ul>
+                    <li><a class="nav-link scrollto" href="#">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#symptoms">Symptoms</a></li>
+                    <li><a class="nav-link scrollto" href="#vaccination">Vaccines</a></li>
+                    <li><a class="nav-link scrollto" href="#get-vaccination">Get Vaccinated</a></li>
+                    <li><a class="nav-link scrollto" href="#fight">Fight Covid-19</a></li>
+                    <li><a class="nav-link scrollto" href="#help">Help</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1><span>Welcome to</span><br> Med.io Covid-19 Portal</h1>
+            </div>
+        </div>
+    </div>
+
+
+<!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../assets/images/covid-portrait.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Covid-19</h1>
+                    <p>A new virus called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was 
+                       identified as the cause of a disease outbreak that began in China in 2019. 
+                       The disease is called coronavirus disease 2019 (COVID-19).In March 2020, the World 
+                       Health Organization (WHO) declared COVID-19 a pandemic. Public health groups, 
+                       including the U.S. Centers for Disease Control and Prevention (CDC) and WHO, 
+                       are monitoring the pandemic and posting updates on their websites. These groups 
+                       have also issued recommendations for preventing the spread of the virus that causes 
+                       COVID-19.</p>
+
+                       <div class = "tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('global')">Global Statistics</p>
+                         <p class="tab-links" onclick="opentab('asia')">Asia Statistics</p>
+                         <p class="tab-links" onclick="opentab('bangladesh')">Bangladesh Statistics</p>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="global">
+                          <ul>
+                            <li><span>Total Infected :</span><br><b>630,832,131</b></li>
+                            <li><span>Total Deaths :</span><br><b>6,584,104</b></li>
+                            <li><span>Total Vaccinated :</span><br><b>12,885,748,541</b></li>
+                          </ul>
+                       </div>
+
+                       <div class="tab-contents" id="asia">
+                        <ul>
+                          <li><span>Total Infected :</span><br><b>17,725,946</b></li>
+                          <li><span>Total Deaths :</span><br><b>304,660</b></li>
+                          <li><span>Total Vaccinated :</span><br><b>3,787,535,491</b></li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="bangladesh">
+                        <ul>
+                          <li><span>Total Infected :</span><br><b>2,036,061</b></li>
+                          <li><span>Total Deaths :</span><br><b>29,426</b></li>
+                          <li><span>Total Vaccinated :</span><br><b>325,546,619</b></li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--Symptoms Section-->
+    <div id="symptoms">
+        <div class="container">
+            <div class="row">
+                <div class="symptoms-col-2">
+                    <h1 class="sub-title">Symptoms</h1>
+                       <div class = "tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('major')">Major Symptoms</p>
+                         <p class="tab-links" onclick="opentab('minor')">Minor Symptoms</p>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="major">
+                          <ul>
+                            <li>Fever</li>
+                            <li>Cough</li>
+                            <li>Tiredness</li>
+                            <li>Loss of taste or smell</li>
+                            <li>Shortness of breath</li>
+                            <li>Headache</li>
+                            <li>Sore throat</li>
+                          </ul>
+                       </div>
+
+                       <div class="tab-contents" id="minor">
+                        <ul>
+                            <li>Headache</li>
+                            <li>Diarrhoea</li>
+                            <li>A rash on skin, or discolouration of fingers or toes</li>
+                            <li>Red or irritated eyes</li>
+                            <li>Loss of speech or mobility, or confusion</li>
+                            <li>Chest pain</li>
+                        </ul>
+                     </div>
+                </div>
+                <div class="symptoms-col-2">
+                    <img src="../assets/images/covid-symptoms.jpg">
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--Vaccination Section-->
+    <div id="vaccination">
+        <div class="container">
+            <h1 class="sub-title">Vaccines</h1>
+            <div class="vaccination-list">
+                <div>
+                    <h3>Moderna</h3>
+                    <p>The Moderna COVID-19 vaccine is used to provide protection against 
+                        infection by the SARS-CoV-2 virus in order to prevent COVID-19. 
+                        The vaccine is given by intramuscular injection into the deltoid 
+                        muscle of the arm. The initial course consists of two doses.
+                    </p>
+                </div>
+                <div>
+                    <h3>Pfizer-BioNTech</h3>
+                    <p>Pfizer-BioNTech is a vaccine against COVID-19. It is a messenger RNA (mRNA) vaccine. 
+                        mRNA vaccines teach our cells how to make a protein that 
+                        triggers an immune response inside our bodies. 
+                        This protein is called the "spike protein" and is found on the 
+                        surface of the virus that causes COVID-19.
+                    </p>
+                </div>
+                <div>
+                    <h3>AstraZeneca</h3>
+                    <p>The Oxford-AstraZeneca COVID-19 vaccine is used to provide 
+                        protection against infection by the SARS-CoV-2 virus 
+                        in order to prevent COVID-19 in adults aged 18 years and older. 
+                        The medicine is administered by two 0.5 ml (0.017 US fl oz) doses
+                        given by intramuscular injection into the deltoid muscle 
+                        (upper arm).
+                    </p>
+                </div>
+                <div>
+                    <h3>Johnson & Johnson</h3>
+                    <p>The Janssen COVID-19 vaccine is authorized for use under an Emergency
+                         Use Authorization (EUA) for active immunization to prevent 
+                         coronavirus disease 2019 (COVID-19) caused by severe acute 
+                         respiratory syndrome coronavirus 2 (SARS-CoV-2) in 
+                         individuals 18 years of age and older.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Get Vaccinated Section-->
+    <div id="get-vaccination">
+        <div class="container">
+            <div class="row">
+                <div class="getvaccination-col-1">
+                    <img src="../assets/images/vaccine.jpg">
+                </div>
+                <div class="getvaccination-col-2">
+                    <h1 class="sub-title">Get Vaccination</h1>
+                       <div class = "tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('register')">Register</p>
+                         <p class="tab-links" onclick="opentab('card')">Vaccine Card</p>
+                         <p class="tab-links" onclick="opentab('certificate')">Vaccine Certificate</p>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="register">
+                          <p>To Register for vaccination from Shurokkha Portal,<br>
+                            <a href="https://surokkha.gov.bd/enroll">Click Here</a>
+                          </p>
+                       </div>
+
+                       <div class="tab-contents" id="card">
+                          <p>Download Your Vaccine Card after successful Registration,<br>
+                            <a href="https://surokkha.gov.bd/vaccine-card">Click Here</a>
+                          </p>       
+                       </div>
+                       <div class="tab-contents" id="certificate">
+                          <p>After taking required vaccine doses, To Download your Vaccine Certificate<br>
+                            <a href="https://surokkha.gov.bd/certificate">Click Here</a>
+                          </p>
+                       </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fight Covid-19-->
+    <div id="fight">
+        <div class="container">
+            <div class="row">
+                <div class="fight-col-1">
+                    <h1 class="sub-title">Fight Covid-19</h1>
+                       <div class = "tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('dos')">What to Do</p>
+                         <p class="tab-links" onclick="opentab('donts')">What Not to Do</p>
+                       </div>
+
+                       <div class="tab-contents active-tab" id="dos">
+                          <ul>
+                            <li> > Get all the recommended doses of COVID-19 vaccine</li>
+                            <li> > Keep a safe distance from others, especially in closed spaces</li>
+                            <li> > When indoors, open windows if possible</li>
+                            <li> > Wear a mask if you're or those around you are at high risk of severe illness</li>
+                            <li> > Keep hands clean</li>
+                            <li> > Cover coughs and sneezes</li>
+                            <li> > Stay home when feeling unwell</li>
+                          </ul>
+                       </div>
+
+                       <div class="tab-contents" id="donts">
+                        <ul>
+                            <li> > Don't go to work or school if you're sick</li>
+                            <li> > Don't touch your eyes, nose, or mouth with unwashed hands</li>
+                            <li> > Don't share personal items</li>
+                            <li> > Don't shake hands</li>
+                            <li> > Don't go to crowded places</li>
+                            <li> > Don't go to public places if you're sick</li>
+                            <li> > Don't go to work or school if you're sick</li>
+                        </ul>
+                     </div>
+                </div>
+                <div class="fight-col-2">
+                    <img src="../assets/images/fight.jpg">
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--Help Section-->
+    <div id="help">
+        <div class="container">
+            <h1 class="sub-title">Help</h1>
+            <div class="help-list">
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Health Portal</h3>
+                    <p><b>16263</b></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house-medical"></i>
+                    <h3>IEDCR</h3>
+                    <p><b>10655</b></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Covid-19 Telehealth</h3>
+                    <p><b>09666777222</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--JavaScript Portion-->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
